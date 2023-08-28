@@ -1,0 +1,61 @@
+name: Membership Request
+description: Request cert-manager membership
+labels: [ "area/github-membership" ]
+title: "REQUEST: New membership for <your-GH-handle>"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for filling out this membership request! More information about membership and the contribution ladder can be found in the GOVERNANCE.md file.
+- id: github
+  type: input
+  attributes:
+    label: GitHub Username
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label: I have reviewed the [cert-manager Code of Conduct](https://github.com/cert-manager/cert-manager/blob/master/CODE_OF_CONDUCT.md)
+      required: true
+    - label: I have reviewed the guidelines in [the contributing page](https://cert-manager.io/docs/contributing/)
+      required: true
+    - label: I have [enabled 2FA on my GitHub account](https://help.github.com/articles/about-two-factor-authentication)
+      required: true
+    - label: I am an active cert-manager contributor (see GOVERNANCE.md for more info).
+      required: true
+    - label: I have two sponsors that meet the sponsor requirements listed in the community membership guidelines
+      required: true
+    - label: I have spoken to my sponsors ahead of this application, and they have agreed to sponsor my application
+      required: true
+    - label: I have verified that my sponsors are a reviewer or an approver in at least one OWNERS file within one of the cert-manager projects
+      required: true
+- id: sponsor_1
+  type: input
+  attributes:
+    label: "Sponsor 1"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-1
+  validations:
+    required: true
+- id: sponsor_2
+  type: input
+  attributes:
+    label: "Sponsor 2"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-2
+  validations:
+    required: true
+- id: contributions
+  type: textarea
+  attributes:
+    label: List of contributions to the cert-manager project
+    placeholder: |
+      - PRs reviewed / authored
+      - Issues responded to
+      - Slack conversations you helped in
+  validations:
+    required: true
