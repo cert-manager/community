@@ -53,9 +53,9 @@ body:
   type: textarea
   attributes:
     label: List of contributions to the cert-manager project
-    placeholder: |
-      - PRs reviewed / authored
-      - Issues responded to
-      - Slack conversations you helped in
+    value: |
+      <!-- PRs reviewed / authored -->
+      <!-- Issues responded to -->
+      <!-- Slack conversations you helped in -->
   validations:
     required: true
