@@ -59,10 +59,10 @@ must have had some meaningful interaction with you on an issue on GitHub or on
 the `#cert-manager` or `#cert-manager-dev` channels on the Kubernetes Slack.
 
 Then, open an issue on the [community][] repository and mention your sponsors as
-well as links to the meaningful interactions (Slack threads, GitHub issues). Ask
-your sponsors to confirm their sponsorship by commenting on your PR. After that,
-your request will be reviewed by a cert-manager admin, in accordance with their
-SLO.
+well as links to the meaningful interactions (Slack threads, GitHub issues, GitHub
+PRs, or a contribution to one of the biweekly dev meetings). Ask your sponsors
+to confirm their sponsorship by commenting on your PR. After that, your request
+will be reviewed by a cert-manager admin, in accordance with their SLO.
 
 To be added as a GitHub member, you will also need to enable [two-factor
 authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) on your GitHub account.
@@ -153,10 +153,11 @@ project and who can participate in lazy consensus and votes.
 
 ### Becoming a Maintainer
 
-Anyone can become a cert-manager maintainer. Maintainers should be proficient in
-Go; have expertise in at least one of the domains (Kubernetes, PKI, ACME); have
-the time and ability to meet the maintainer expectations above; and demonstrate
-the ability to work with the existing maintainers and project processes.
+Any existing Approver can become a cert-manager maintainer. Maintainers should
+be proficient in Go; have expertise in at least one of the domains (Kubernetes,
+PKI, ACME); have the time and ability to meet the maintainer expectations above;
+and demonstrate the ability to work with the existing maintainers and project
+processes.
 
 To become a maintainer, start by expressing interest to existing maintainers.
 Existing maintainers will then ask you to demonstrate the qualifications above
