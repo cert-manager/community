@@ -166,11 +166,10 @@ project and who can participate in lazy consensus and votes.
 
 ### Becoming a Maintainer
 
-Any existing Approver can become a cert-manager maintainer. Maintainers should
-be proficient in Go; have expertise in at least one of the domains (Kubernetes,
-PKI, ACME); have the time and ability to meet the maintainer expectations above;
-and demonstrate the ability to work with the existing maintainers and project
-processes.
+Anyone can become a cert-manager maintainer. Maintainers should be proficient in
+Go; have expertise in at least one of the domains (Kubernetes, PKI, ACME); have
+the time and ability to meet the maintainer expectations above; and demonstrate
+the ability to work with the existing maintainers and project processes.
 
 To become a maintainer, start by expressing interest to existing maintainers.
 Existing maintainers will then ask you to demonstrate the qualifications above
