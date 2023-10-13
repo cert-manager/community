@@ -73,6 +73,18 @@ GitHub members are encouraged to engage with the mailing list [cert-manager-dev@
 
 No extra responsabilities.
 
+### GitHub Member Privileges
+
+- GitHub Members can be assigned to issues and pull requests via `/assign
+  @username`, they can self-assign with `/assign`, and people can ask members
+  for reviews with a /cc @username.
+- GitHub Members do not need `/ok-to-test`. The CI run automatically on their
+  pull requests.
+- GitHub Members can use the command `/ok-to-test` to enable tests on pull
+  requests.
+- GitHub Members can manage pull requests and issues with `/close` and
+  `/reopen`.
+
 ## Reviewer
 
 The mission of the reviewer is to read through PRs for quality and correctness
@@ -98,6 +110,7 @@ need to repeat the process for each repository.
 
 ### Reviewer Responsibilities
 
+- Review code changes when Prow selects you on a pull request.
 - When possible, review pull requests, triage issues, and fix bugs in their
   areas of expertise.
 - Ensure that all changes go through the project's code review and integration
@@ -105,7 +118,7 @@ need to repeat the process for each repository.
 
 ### Reviewer Privileges
 
-- Able to `/lgtm` on pull requests.
+- Reviewers can `/lgtm` on pull requests.
 
 ## Approver
 
