@@ -8,7 +8,9 @@ for cert-manager adopters.
 
 The members of the Steering Committee are:
 
-- TBD
+- Florian Liebhart (Volkswagen)
+- Erik Godding Boye (Zenior AS)
+- Spyros Synodinos (Giantswarm)
 
 ## Steering Committee Responsibilities
 
