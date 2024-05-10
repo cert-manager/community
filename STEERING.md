@@ -62,6 +62,18 @@ All recordings and minutes will be posted publicly.
 
 It is the responsibility of maintainers to ensure that meetings are scheduled and run, and maintainers are generally expected to attend these meetings to provide input and to listen.
 
+### Past Meetings
+
+#### Meeting #1: 2024-05-09
+
+Meeting notes: [Link](https://docs.google.com/document/d/1Mme73Or-FemOl0KKfE2gskYpL0BN9bU7H2QYg9fZg9A/edit?usp=sharing)
+
+Summary of discussion:
+
+- Discussed a new 4-monthly release schedule for cert-manager. This was approved, although we also discussed how we can better enable users to consume alpha releases, including discussions on naming and frequency of prereleases.
+- Mostly focused on the roadmap. We agreed several areas we'd like to focus on, and several areas which are listed in the current roadmap and which we think shouldn't be called out there.
+- We agreed to collaborate on a roadmap asynchronously via a GitHub PR.
+
 ## Changes to This Charter
 
 Changes to this document must be approved by a majority of Steering Committee
