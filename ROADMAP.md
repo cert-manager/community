@@ -1,70 +1,73 @@
-Roadmap
-=======
-
-2024-05-09: Work in progress! As part of cert-manager's efforts to achieve graduation within the CNCF, we're
-redoing our roadmap and we're planning how we can regularly review it and keep it up to date. Below is the
-roadmap copied directly from the old location in the cert-manager repo, which will be updated in the near future.
-
-The roadmap items are categorised into themes based on the larger goals we want to achieve with cert-manager.
+# cert-manager Project Roadmap
 
 
-While this is a summary of the direction we want to go we welcome all PRs, even if they don't fall under any of the roadmap items
-listed here. We unfortunately can't merge every change, and if you're looking to contribute a new feature you might want to
-check the [contributing guide](https://cert-manager.io/docs/contributing/) on the cert-manager website.
+While this is a summary of the direction we want to go we welcome pull requests across all projects, even if they don't
+fall under any of the roadmap items listed here.
 
+We unfortunately can't merge every change, and if you're looking to contribute a new feature you might want to
+check the [contributing guide](https://cert-manager.io/docs/contributing/) on the cert-manager website and specifically
+our [feature policy](https://cert-manager.io/docs/contributing/policy/) for details on what we're likely to accept and
+how to maximise your chances of being accepted.
 
-### Integration with other projects in the cloud-native landscape
+## Goals and Objectives of the cert-manager Project
 
-cert-manager should be able to deliver and manage X.509 certificates to popular
-projects in the cloud-native ecosystem.
+Our primary goal is to ensure that the following statement holds true:
 
-- Service Mesh Integration: While we have good Istio and Open Service Mesh integration, expand to other projects such as Linkerd, cilium
+> cert-manager is the easiest way to automatically manage certificates in Kubernetes clusters.
 
-### Adoption of upstream APIs
+This applies to cert-manager itself, and to other subprojects which are part of the wider cert-manager project
+including:
 
-Continue to support latest APIs for upstream K8s and related SIGs.
+- trust-manager
+- csi-driver
+- csi-driver-spiffe
+- istio-csr
+- approver-policy
 
-- Kubernetes APIs: keep up to date with Kubernetes API changes and release cadence
-- CSR API: support the sig-auth CSR API for certificate requests in kubernetes
-- [Trust Anchor Sets](https://github.com/kubernetes/enhancements/pull/3258)
+## Roadmap Items
+
+### Adoption of Upstream Changes
+
+Continue to support latest versions, new APIs for upstream Kubernetes and related upstream projects.
+
+For example:
+
+- Kubernetes APIs: keep up to date with Kubernetes API changes
+- Kubernetes Versions: maintain support for a reasonable spread of Kubernetes versions, and support new versions as quickly as we can
+- [ClusterTrustBundle](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.29/#clustertrustbundle-v1alpha1-certificates-k8s-io) support
 - Gateway API
 
-### Extensibility
+#### Goals for cert-manager `v1.15`
 
-Widen the scope of integrations with cert-manager.
+- [x] Graduate Gateway API support to Beta ([#6961](https://github.com/cert-manager/cert-manager/pull/6961))
+- [x] Support Kubernetes `v1.30` ([#7006](https://github.com/cert-manager/cert-manager/issues/7006))
 
-- EST support: support a standard for ACME-like issuance within an enterprise
-- External DNS plugin: enable ACME DNS01 requests to be completed using external-dns
-- Improve external issuer development experience: documentation and examples for people developing external issuers
+### Shrinking Core / Aiding Extensibility
 
-### PKI lifecycle
+Minimise the surface area of cert-manager's core components to reduce attack surface, binary size, container size and complexity.
 
-Enable best-practice PKI management with cert-manager.
+Nothing in this item should make cert-manager harder to use for any user. Mostly it talks about code architecture changes to improve
+security, reduce blast radius and more tightly scope powerful permissions to only those components which need them.
+
+For example:
+
+- Move "core" issuers with dependencies (ACME, Vault, Venafi) into external issuers, which would be still be included in the cert-manager Helm chart but would run separately
+- Likewise, change all "core" DNS solvers into external solvers
+- Focus on good integration points for external plugins rather than adding things into core
+
+### PKI Lifecycle
+
+Enable best-practice PKI management with cert-manager. Users with existing PKI deployments should be able to move them into cert-manager, while
+users getting started with PKI should be able to use cert-manager to achieve their goals.
+
+For example:
 
 - Handle CA certs being renewed: deal with the cases where the CA cert is renewed and allow for all signed certs to be renewed
 - Make cert-manager a viable way to create and manage private PKI deployments at scale
-- Trust root distribution: handle distributing all trust roots within a cluster, solving trust for private and public certificates
+- Handle trust in a safe way, wherever it needs to be used
 
-See also [trust-manager](https://cert-manager.io/docs/projects/trust/) for more on trust distribution.
+## Notes / See Also
 
-### End-user experience
-
-- Graduate alpha / beta features in good time:
-  - SIG-Auth CSR API support
-  - SIG-Network Gateway API support
-- Easier diagnosis of problems: improve cert-manager output to make status clearer, and provide tools to aid debugging
-- Improve the new contributor experience
-
-### Developer experience
-
-- Better user experience for installation, operation and use with applications
-- Zero test flakiness and increased testing confidence
-- Improve release process by adding more automation
-
-### Shrinking Core
-
-Minimise the surface area of cert-manager, reducing attack surface, binary size, container size and default deployment complexity
-
-- Move "core" issuers with dependencies (ACME, Vault, Venafi) into external issuers, which might still be bundled by default
-- Likewise, change all "core" DNS solvers into external solvers
-- Provide a minimal "pick and mix" distribution of cert-manager which allows users to specify exactly which issuer types / DNS solvers they want to install
+- This file is based on a [CNCF document](https://contribute.cncf.io/maintainers/community/contributor-growth-framework/open-source-roadmaps)
+- That document has vendor neutrality at its core, and this roadmap is [vendor neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/)
+- cert-manager's [Supported Releases](https://cert-manager.io/docs/releases/) page detailing upcoming versions and Kubernetes version support
