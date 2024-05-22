@@ -9,6 +9,18 @@ check the [contributing guide](https://cert-manager.io/docs/contributing/) on th
 our [feature policy](https://cert-manager.io/docs/contributing/policy/) for details on what we're likely to accept and
 how to maximise your chances of being accepted.
 
+## Changes to this Roadmap
+
+Changes to this roadmap will take the form of pull requests containing the suggested change. All such PRs must be posted to the `#cert-manager-dev` Slack channel in
+Kubernetes slack so that they're made visible to all other developers and maintainers and steering committee members.
+
+Significant changes to this document should be discussed in either a [steering committee](./STEERING.md) meeting or a [biweekly meeting](https://cert-manager.io/docs/contributing/#meetings)
+before merging, to raise awareness of the change and to provide an opportunity for discussion. A significant change is one which meaningfully alters
+one of the roadmap items, adds a new item, or removes an item.
+
+Insignificant changes include updating links to issues, spelling fixes or minor rewordings which don't significantly change meanings. These insignificant changes
+don't need to be discussed in a meeting but should still be shared in Slack.
+
 ## Goals and Objectives of the cert-manager Project
 
 Our primary goal is to ensure that the following statement holds true:
