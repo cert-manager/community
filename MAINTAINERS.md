@@ -15,3 +15,4 @@ Former maintainers are:
 
 - Maartje Eyskens (@meyskens)
 - Joakim Ahrlin (@jahrlin)
+- Irbe Krumina (@irbekrm)
