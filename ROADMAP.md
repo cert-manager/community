@@ -38,6 +38,17 @@ including:
 
 ## Roadmap Items
 
+### Support for ACME Renewal Information (ARI)
+
+ARI provides a much cleaner method for renewing certificates using the ACME protocol, and comes with the benefit that
+Let's Encrypt provide exemptions from rate limits if ARI is used correctly.
+
+With the knowledge that the ACME issuer is the most widely used in cert-manager, we'd like to adopt ARI to take
+advantage of the benefits.
+
+For background, see the [Let's Encrypt](https://letsencrypt.org/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients.html)
+guide on adopting ARI.
+
 ### Adoption of Upstream Changes
 
 Continue to support latest versions, new APIs for upstream Kubernetes and related upstream projects.
