@@ -6,6 +6,22 @@ The latest version of the upstream CNCF Code of Conduct is at https://github.com
 
 If the version reproduced below is out of date, the Code of Conduct which applies to the cert-manager project is the latest version upstream.
 
+## cert-manager Project Code of Conduct Committee
+
+Given the size of the team involved with cert-manager, there is no explicitly
+defined separate team of people responsible for policing the code of conduct
+for matters which fall exclusively under the [jurisdiction](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md) of the cert-manager project.
+
+If a committee is needed to evaluate a potential violation of the Code of Conduct,
+that team shall be made up of both the steering committee and all maintainers.
+
+Any decisions made by the Code of Conduct committee should seek unanimous consent,
+but failing that should fall back to a majority vote.
+
+If the alleged violator is in the steering committee or the maintainer group,
+that person is ineligible to sit on the committee. The same is true for anyone
+in the group who has a [conflict of interest](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest).
+
 ## CNCF Community Code of Conduct v1.3
 
 Other languages available:

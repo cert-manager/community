@@ -225,12 +225,6 @@ If a maintainer is no longer interested in or cannot perform the duties listed
 above, they should move themselves to emeritus status. If necessary, this can
 also occur through the decision-making process outlined above.
 
-A review of the [`MAINTAINERS.md`](./MAINTAINERS.md) file is performed every
-year by the current maintainers. During this review, the maintainers that have
-not been active in the last 18 months are asked whether they would like to
-become an emeritus maintainer, they are expected to respond within 30 days. If
-they do not respond, they will automatically be moved to emeritus status.
-
 ## Admin
 
 An admin is a maintainer who has admin privileges on the cert-manager
@@ -248,8 +242,6 @@ Prow). Then, create an issue on the [community][] repository and mention each
 maintainer. Each maintainer will need to comment on the issue to express their
 approval.
 
-[community]: https://github.com/cert-manager/community
-
 ### Admin Privileges
 
 - Can change settings in the GitHub organization (e.g., remove protected
@@ -263,3 +255,72 @@ approval.
 - Must be available to perform admin-related tasks (add a GitHub member, promote
   a GitHub user to "Owner", add someone to the GCP projects, etc.)
 - Must be responsible with the privileges granted to them.
+
+## Removing Contributors
+
+### Stepping Down
+
+Anyone who has reached any level within the cert-manager project can step down
+at any time.
+
+GitHub Members, Reviewers, Approvers, Maintainers and Admins should give notice
+of their intent to step down by raising an issue on the [community][] repo, so
+that their permissions can be revoked for security reasons.
+
+### Timing Out
+
+#### Maintainers
+
+A review of the [`MAINTAINERS.md`](./MAINTAINERS.md) file is performed every
+year by active current maintainers. During this review, the maintainers that
+have not been active in the last 18 months are asked whether they would like to
+become an emeritus maintainer and they are expected to respond within 30 days.
+
+If they do not respond, they will automatically be moved to emeritus status.
+
+#### Other Levels
+
+For security reasons, anyone at any level who isn't actively involved in the
+project for over a year is liable to be timed out upon review by an active
+maintainer.
+
+Anyone who is timed out can reach out to a maintainer to request to be
+reinstated to their previous level.
+
+There is no regularly scheduled check for any org level except for maintainer;
+timing out non-maintainers is ad-hoc.
+
+### Emeritus Status
+
+Anyone who has reached the "Maintainer" level will be added to the list of
+"emeriti" maintainers in `MAINTAINERS.md` upon stepping down or timing out.
+This is a marker of thanks for people who were involved in shaping the project.
+
+### Removal
+
+The cert-manager project abides by the code of conduct in [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md).
+
+Everyone interacting with the project must abide by this code of conduct, whether
+officially assigned one of the levels listed in this document or if simply
+interacting with the project (e.g. by joining a meeting or commenting on a
+GitHub issue). The same rules apply for members of the steering committee.
+
+If a committee with jurisdiction under the Code of Conduct recommends a person
+be removed from the project, then after the conclusion (if applicable) of any
+appeals, that person will be removed and will not be eligible to re-join the
+project.
+
+#### Project Permissions and Removal
+
+If someone with an assigned level is undergoing an investigation by any
+committee with jurisdiction under the Code of Conduct, they should have all
+permissions removed temporarily while the investigation is underway.
+
+If someone violates the Code of Conduct to a level such that removal from the
+project is recommended, they must immediately have all permissions removed
+from all cert-manager repos (if they hadn't already had permissions removed
+on a temporary basis).
+
+Maintainers removed in this fashion are not eligible for emeritus status.
+
+[community]: https://github.com/cert-manager/community
