@@ -13,7 +13,9 @@ defined separate team of people responsible for policing the code of conduct
 for matters which fall exclusively under the [jurisdiction](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md) of the cert-manager project.
 
 If a committee is needed to evaluate a potential violation of the Code of Conduct,
-that team shall be made up of both the steering committee and all maintainers.
+that team shall be made up of both the steering committee and maintainers. All
+steering committee members and all maintainers are invited, and all are expected to
+attend if they're able to.
 
 Any decisions made by the Code of Conduct committee should seek unanimous consent,
 but failing that should fall back to a majority vote.

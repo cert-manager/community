@@ -307,8 +307,8 @@ GitHub issue). The same rules apply for members of the steering committee.
 
 If a committee with jurisdiction under the Code of Conduct recommends a person
 be removed from the project, then after the conclusion (if applicable) of any
-appeals, that person will be removed and will not be eligible to re-join the
-project.
+appeals, that person will be removed and will not be eligible to rejoin the
+project for at least one year from the date of their removal.
 
 #### Project Permissions and Removal
 
