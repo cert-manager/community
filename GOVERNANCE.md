@@ -71,7 +71,7 @@ GitHub members are encouraged to engage with the mailing list [cert-manager-dev@
 
 ### GitHub Member Responsibilities
 
-No extra responsabilities.
+No extra responsibilities.
 
 ### GitHub Member Privileges
 
@@ -313,7 +313,7 @@ project for at least one year from the date of their removal.
 #### Project Permissions and Removal
 
 If someone with an assigned level is undergoing an investigation by any
-committee with jurisdiction under the Code of Conduct, it may be approrpriate
+committee with jurisdiction under the Code of Conduct, it may be appropriate
 for that users to have all permissions removed temporarily while the investigation
 is underway, as specified under [Interim Protective Measures](https://github.com/cncf/foundation/blob/316b2515c076b2355420f7ddfe80140a5a3d48ae/code-of-conduct/coc-incident-resolution-procedures.md#interim-protective-measures)
 in the CNCF incident resolution process.
