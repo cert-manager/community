@@ -8,8 +8,8 @@ for cert-manager adopters.
 
 The members of the Steering Committee are:
 
-- Florian Liebhart (Volkswagen)
-- Spyros Synodinos (Giantswarm)
+- Florian Liebhart ([@FlorianLiebhart](https://github.com/FlorianLiebhart)) ([Volkswagen](https://www.volkswagen-group.com/en))
+- Spyros Synodinos ([@ssyno](https://github.com/ssyno)) ([Giantswarm](https://www.giantswarm.io/))
 
 ## Steering Committee Responsibilities
 
