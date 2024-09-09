@@ -313,8 +313,20 @@ project for at least one year from the date of their removal.
 #### Project Permissions and Removal
 
 If someone with an assigned level is undergoing an investigation by any
-committee with jurisdiction under the Code of Conduct, they should have all
-permissions removed temporarily while the investigation is underway.
+committee with jurisdiction under the Code of Conduct, it may be approrpriate
+for that users to have all permissions removed temporarily while the investigation
+is underway, as specified under [Interim Protective Measures](https://github.com/cncf/foundation/blob/316b2515c076b2355420f7ddfe80140a5a3d48ae/code-of-conduct/coc-incident-resolution-procedures.md#interim-protective-measures)
+in the CNCF incident resolution process.
+
+This could include removal from the GitHub organization, GCP projects, 1password or any
+other relevant space. This should coincide with any notifications made
+to the accused person, [as detailed](https://github.com/cncf/foundation/blob/316b2515c076b2355420f7ddfe80140a5a3d48ae/code-of-conduct/coc-incident-resolution-procedures.md#notification-to-the-accused-person)
+in the CNCF incident resolution process:
+
+> While the investigation is ongoing, the CoC Committee shall determine in its discretion
+> whether, how, and when to notify the accused person, and how much information to share
+> about the nature of the allegations, if any, taking into consideration risks of retaliation,
+> evidence tampering or destruction, or witness tampering that might result from the notification.
 
 If someone violates the Code of Conduct to a level such that removal from the
 project is recommended, they must immediately have all permissions removed
