@@ -9,7 +9,6 @@ for cert-manager adopters.
 The members of the Steering Committee are:
 
 - Florian Liebhart (Volkswagen)
-- Erik Godding Boye (Zenior AS)
 - Spyros Synodinos (Giantswarm)
 
 ## Steering Committee Responsibilities
@@ -80,3 +79,7 @@ Changes to this document must be approved by a majority of Steering Committee
 members and a majority of cert-manager maintainers, except for the list of
 steering committee members that may be changed under the conditions listed under
 "Steering Committee Membership".
+
+## Former Steering Committee Members
+
+- Erik Godding Boye ([@erikgb](https://github.com/erikgb)) (Zenior AS) - Moved to a maintainer role
