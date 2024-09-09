@@ -23,6 +23,19 @@ but failing that should fall back to a majority vote.
 If the alleged violator is in the steering committee or the maintainer group,
 that person is ineligible to sit on the committee. The same is true for anyone
 in the group who has a [conflict of interest](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest).
+Importantly, note the [CNCF Transfer by Project CoC Responders](https://github.com/cncf/foundation/blob/316b2515c076b2355420f7ddfe80140a5a3d48ae/code-of-conduct/coc-committee-jurisdiction-policy.md#transfer-by-project-coc-responders) 
+section. If a majority of potential committee members have hard conflicts of interest,
+then the reported issue should be transferred to the CNCF CoC Committee.
+
+To make a report which falls under the jurisdiction of the cert-manager Code of Conduct
+committee, a user can email `cert-manager-maintainers@googlegroups.com`, which is readable
+only by maintainers. If the user has concerns about contacting all maintainers they can
+reach out to an individual maintainer or steering committee member.
+
+If the reporter doesn't feel comfortable reaching out to any individual maintainer or
+steering committee member, they're encouraged to reach out to the CNCF CoC Committee directly.
+More details are in the "Reporting" section in the copied code of conduct below.
+
 
 ## CNCF Community Code of Conduct v1.3
 
@@ -98,6 +111,7 @@ Examples of unacceptable behavior include but are not limited to:
   professional setting
 
 The following behaviors are also prohibited:
+
 * Providing knowingly false or misleading information in connection with a Code of Conduct investigation or otherwise intentionally tampering with an investigation.
 * Retaliating against a person because they reported an incident or provided information about an incident as a witness.
 
