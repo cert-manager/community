@@ -11,6 +11,7 @@ The members of the Steering Committee are:
 - Florian Liebhart ([@FlorianLiebhart](https://github.com/FlorianLiebhart)) ([Volkswagen](https://www.volkswagen-group.com/en))
 - Spyros Synodinos ([@ssyno](https://github.com/ssyno)) ([Giantswarm](https://www.giantswarm.io/))
 - Ian Arsenault ([@ianarsenault](https://github.com/ianarsenault)) ([Snowplow](https://snowplow.io/))
+- Trilok Geer ([@TrilokGeer](https://github.com/TrilokGeer)) ([Red Hat](https://www.redhat.com/en))
 
 ## Steering Committee Responsibilities
 
