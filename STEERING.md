@@ -83,4 +83,4 @@ steering committee members that may be changed under the conditions listed under
 
 ## Former Steering Committee Members
 
-- Erik Godding Boye ([@erikgb](https://github.com/erikgb)) (Zenior AS) - Moved to a maintainer role
+- Erik Godding Boye ([@erikgb](https://github.com/erikgb)) ([Zenior AS](https://www.zenior.no/)) - Moved to a maintainer role
