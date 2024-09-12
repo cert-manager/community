@@ -6,6 +6,37 @@ The latest version of the upstream CNCF Code of Conduct is at https://github.com
 
 If the version reproduced below is out of date, the Code of Conduct which applies to the cert-manager project is the latest version upstream.
 
+## cert-manager Project Code of Conduct Committee
+
+Given the size of the team involved with cert-manager, there is no explicitly
+defined separate team of people responsible for policing the code of conduct
+for matters which fall exclusively under the [jurisdiction](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-committee-jurisdiction-policy.md) of the cert-manager project.
+
+If a committee is needed to evaluate a potential violation of the Code of Conduct,
+that team shall be made up of both the steering committee and maintainers. All
+steering committee members and all maintainers are invited, and all are expected to
+attend if they're able to.
+
+Any decisions made by the Code of Conduct committee should seek unanimous consent,
+but failing that should fall back to a majority vote.
+
+If the alleged violator is in the steering committee or the maintainer group,
+that person is ineligible to sit on the committee. The same is true for anyone
+in the group who has a [conflict of interest](https://github.com/cncf/foundation/blob/main/code-of-conduct/coc-incident-resolution-procedures.md#conflicts-of-interest).
+Importantly, note the [CNCF Transfer by Project CoC Responders](https://github.com/cncf/foundation/blob/316b2515c076b2355420f7ddfe80140a5a3d48ae/code-of-conduct/coc-committee-jurisdiction-policy.md#transfer-by-project-coc-responders) 
+section. If a majority of potential committee members have hard conflicts of interest,
+then the reported issue should be transferred to the CNCF CoC Committee.
+
+To make a report which falls under the jurisdiction of the cert-manager Code of Conduct
+committee, a user can email `cert-manager-maintainers@googlegroups.com`, which is readable
+only by maintainers. If the user has concerns about contacting all maintainers they can
+reach out to an individual maintainer or steering committee member.
+
+If the reporter doesn't feel comfortable reaching out to any individual maintainer or
+steering committee member, they're encouraged to reach out to the CNCF CoC Committee directly.
+More details are in the "Reporting" section in the copied code of conduct below.
+
+
 ## CNCF Community Code of Conduct v1.3
 
 Other languages available:
@@ -80,6 +111,7 @@ Examples of unacceptable behavior include but are not limited to:
   professional setting
 
 The following behaviors are also prohibited:
+
 * Providing knowingly false or misleading information in connection with a Code of Conduct investigation or otherwise intentionally tampering with an investigation.
 * Retaliating against a person because they reported an incident or provided information about an incident as a witness.
 

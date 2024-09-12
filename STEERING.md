@@ -25,6 +25,8 @@ The Steering Committee’s responsibilities are to:
    broader community.
 4. Provide neutral mediation for non-technical disputes.
 5. Develop and maintain a project continuity plan.
+6. Sit on the "Code of Conduct Committee" in the event that a violation of the
+   Code of Conduct is reported
 
 ## Steering Committee Membership
 
