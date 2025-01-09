@@ -38,6 +38,19 @@ including:
 
 ## Roadmap Items
 
+### Support for Post Quantum Cryptography
+
+Quantum computers present a clear [threat](https://csrc.nist.gov/projects/post-quantum-cryptography) to systems which use cryptography
+based on certain mathematical principles, which includes cert-manager's use of algorithms such as RSA, ECDSA and EdDSA for signing certificates.
+
+In the long term, the expectation within the technology industry is that all systems which aim for long-term security using
+asymmetric cryptography will have to adopt post-quantum cryptography (PQC).
+
+cert-manager will adopt PQC in time, as algorithms are further standardised and as solid libraries become available for use.
+
+cert-manager's support for signing with non-PQC algorithms is from the Go standard library. On the [assumption](https://github.com/golang/go/issues/64537#issuecomment-2445056004)
+that the Go standard library will adopt PQC algorithms, the cert-manager project's current intent is to wait for PQC support in the Go standard library.
+
 ### Support for ACME Renewal Information (ARI)
 
 ARI provides a much cleaner method for renewing certificates using the ACME protocol, and comes with the benefit that
