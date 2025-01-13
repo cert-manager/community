@@ -17,7 +17,7 @@ The members of the Steering Committee are:
 
 The Steering Committee’s responsibilities are to:
 
-1. Provide feedback to project maintainers about cert-manager's featureset, UX,
+1. Provide feedback to project maintainers about cert-manager's feature set, UX,
    and operational model.
 2. Assist cert-manager maintainers in prioritizing upcoming roadmap items and
    planned work.
@@ -67,13 +67,25 @@ It is the responsibility of maintainers to ensure that meetings are scheduled an
 
 ### Past Meetings
 
+#### Meeting #2: 2025-01-08
+
+Meeting notes: [Link](https://docs.google.com/document/d/1KPcdPDxmxkFu6J_dOp02kGIP3CMHA5L2kB3n1K7WS-E/edit?usp=sharing)
+
+Summary of discussion:
+
+- Mostly a series of announcements from maintainers, including:
+    - LTS changes
+    - Adding post-quantum cryptography to the cert-manager open roadmap
+    - Dropping support for publishing the cert-manager OLM bundle
+- General discussion around ongoing work
+
 #### Meeting #1: 2024-05-09
 
 Meeting notes: [Link](https://docs.google.com/document/d/1Mme73Or-FemOl0KKfE2gskYpL0BN9bU7H2QYg9fZg9A/edit?usp=sharing)
 
 Summary of discussion:
 
-- Discussed a new 4-monthly release schedule for cert-manager. This was approved, although we also discussed how we can better enable users to consume alpha releases, including discussions on naming and frequency of prereleases.
+- Discussed a new 4-monthly release schedule for cert-manager. This was approved, although we also discussed how we can better enable users to consume alpha releases, including discussions on naming and frequency of pre-releases.
 - Mostly focused on the roadmap. We agreed several areas we'd like to focus on, and several areas which are listed in the current roadmap and which we think shouldn't be called out there.
 - We agreed to collaborate on a roadmap asynchronously via a GitHub PR.
 
