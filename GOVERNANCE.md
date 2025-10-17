@@ -93,7 +93,9 @@ codebase as well as software engineering principles. Individuals with expertise
 in documentation, website content, and other facets of the project are also
 encouraged to join as reviewers.
 
-**Defined by:** the `reviewers` section in the file [`OWNERS`](./OWNERS).
+**Defined by:** the `reviewers` section in the `OWNERS` file of each repository.
+For example, see the [`OWNERS`](https://github.com/cert-manager/cert-manager/blob/master/OWNERS)
+file in cert-manager/cert-manager.
 
 ### Becoming a Reviewer
 
@@ -130,7 +132,9 @@ on an existing review with the command `/approve`. Note that it is always
 possible to review a PR as an approver with `/lgtm`, in which case the PR will
 be automatically approved.
 
-**Defined by:** the `approver` section in the [`OWNERS`](./OWNERS) file.
+**Defined by:** the `approvers` section in the `OWNERS` file of each repository.
+For example, see the [`OWNERS`](https://github.com/cert-manager/cert-manager/blob/master/OWNERS)
+file in cert-manager/cert-manager.
 
 ### Becoming an Approver
 
