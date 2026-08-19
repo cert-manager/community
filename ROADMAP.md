@@ -51,17 +51,6 @@ cert-manager will adopt PQC in time, as algorithms are further standardised and 
 cert-manager's support for signing with non-PQC algorithms is from the Go standard library. On the [assumption](https://github.com/golang/go/issues/64537#issuecomment-2445056004)
 that the Go standard library will adopt PQC algorithms, the cert-manager project's current intent is to wait for PQC support in the Go standard library.
 
-### Support for ACME Renewal Information (ARI)
-
-ARI provides a much cleaner method for renewing certificates using the ACME protocol, and comes with the benefit that
-Let's Encrypt provide exemptions from rate limits if ARI is used correctly.
-
-With the knowledge that the ACME issuer is the most widely used in cert-manager, we'd like to adopt ARI to take
-advantage of the benefits.
-
-For background, see the [Let's Encrypt](https://letsencrypt.org/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients.html)
-guide on adopting ARI.
-
 ### Adoption of Upstream Changes
 
 Continue to support latest versions, new APIs for upstream Kubernetes and related upstream projects.
