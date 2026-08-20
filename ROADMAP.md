@@ -88,7 +88,8 @@ As part of the shrinking core and reducing our attack surface, we would need to 
 
 * `1.21` - `1.22` - Starting migration of vault issuer
 * `1.23` - Run e2e tests with cert-manager by disabling in-tree vault issuer. Once everything passes, presenting this in the biweekly meeting to get approval form maintainers and community to start the transition.
-* `1.24` - cert-manager helm chart ships the new external vault issuer and disables the in-tree issuer.* `1.26` - Remove vault issuer in-tree altogether and make the shipping of vault issuer optional.
+* `1.24` - cert-manager helm chart ships the new external vault issuer and disables the in-tree issuer.
+* `1.26` - Remove vault issuer in-tree altogether and make the shipping of vault issuer optional.
 
 ### PKI Lifecycle
 
