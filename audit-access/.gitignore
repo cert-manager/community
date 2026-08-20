@@ -1,0 +1,18 @@
+# Binary
+audit-access
+
+# Test coverage
+*.out
+*.test
+
+# Build artifacts
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude
