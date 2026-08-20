@@ -80,6 +80,16 @@ For example:
 - Likewise, change all "core" DNS solvers into external solvers
 - Focus on good integration points for external plugins rather than adding things into core
 
+#### Issuer Migration
+
+As part of the shrinking core and reducing our attack surface, we would need to migrate off our issuers from in-tree to external. We plan on using issuer-lib to build our external issuers. 
+
+`cert-manager` maintainer team has decided to start the migration with vault issuer. While this transition is happening, cert-manager's helm chart would continue shipping the vault issuer in-tree. Once the migration is done, we will continue to ship the vault issuer as part of the cert-manager helm chart but as a dependent chart. Eventually, the vault issuer will be removed in-tree and be an optional component.
+
+* `1.21` - `1.22` - Starting migration of vault issuer
+* `1.23` - Run e2e tests with cert-manager by disabling in-tree vault issuer. Once everything passes, presenting this in the biweekly meeting to get approval form maintainers and community to start the transition.
+* `1.24` - cert-manager helm chart ships the new external vault issuer and disables the in-tree issuer.* `1.26` - Remove vault issuer in-tree altogether and make the shipping of vault issuer optional.
+
 ### PKI Lifecycle
 
 Enable best-practice PKI management with cert-manager. Users with existing PKI deployments should be able to move them into cert-manager, while
