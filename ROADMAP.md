@@ -49,12 +49,13 @@ asymmetric cryptography will have to adopt post-quantum cryptography (PQC).
 cert-manager is adopting PQC as algorithms are standardised and as solid libraries become available for use.
 
 cert-manager's support for signing with non-PQC algorithms is from the Go standard library, and so is its PQC support.
-Go 1.27 added the ML-DSA (FIPS 204) post-quantum signature algorithm to the standard library, and cert-manager uses it to add
+Go 1.27 added the ML-DSA (FIPS 204) post-quantum signature algorithm to the standard library, and cert-manager uses it for
 ML-DSA private keys (see the [design](https://github.com/cert-manager/cert-manager/blob/master/design/20261007.mldsa-private-keys.md)
 and [cert-manager#8929](https://github.com/cert-manager/cert-manager/issues/8929)):
 
 - ML-DSA-44, ML-DSA-65 and ML-DSA-87 keys for Certificates issued by the SelfSigned and CA issuers, as an alpha feature
-  behind the `MLDSAPrivateKeys` feature gate, targeted at cert-manager v1.22.
+  behind the `MLDSAPrivateKeys` feature gate, added in cert-manager v1.22
+  ([cert-manager#9469](https://github.com/cert-manager/cert-manager/pull/9469)).
 - Beta (enabled by default) and then GA, targeted at v1.23 and v1.24, depending on user feedback.
 
 Possible later work includes ML-DSA support in other issuers (such as ACME, once publicly trusted CAs offer it) and in the
