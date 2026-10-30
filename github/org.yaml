@@ -1,0 +1,114 @@
+admins:
+- caniszczyk
+- cert-manager-bot
+- erikgb
+- inteon
+- jakexks
+- JoshVanL
+- maelvls
+- munnerz
+- SgtCoDFish
+- ThatsMrTalbot
+- thelinuxfoundation
+- wallrj
+- wallrj-cyberark
+members:
+- ali-hamza-noor
+- amibhi
+- anbaig
+- ARichman555
+- arun717
+- aveega
+- bmsiegel
+- charlieegan3
+- davidnoyes
+- dcamzn
+- divyansh-gupta
+- euank
+- FelixPhipps
+- FlorianLiebhart
+- Hamidhasan
+- hawksight
+- heckj
+- hjoshi123
+- hmphome
+- irbekrm
+- james-w
+- jniebuhr
+- jsoref
+- juliocamarero
+- kollabpr
+- kragniz
+- KyleBS
+- lunarwhite
+- meghanayendamuri
+- meyskens
+- mikebryant
+- mladen-rusev-cyberark
+- nalum
+- ndbhat
+- shankara-n
+- simplyzee
+- SpectralHiss
+- tanujd11
+- terricain
+- TrilokGeer
+- vdesjardins
+name: cert-manager
+teams:
+  approver-policy-maintainers:
+    description: ""
+    maintainers:
+    - erikgb
+    privacy: closed
+    repos:
+      approver-policy: maintain
+  aws-privateca-issuer-admins:
+    description: ""
+    members:
+    - jniebuhr
+    - dcamzn
+    privacy: closed
+    repos:
+      aws-privateca-issuer: admin
+  aws-privateca-issuer-maintainers:
+    description: ""
+    members:
+    - Hamidhasan
+    - KyleBS
+    - hmphome
+    - divyansh-gupta
+    - shankara-n
+    - anbaig
+    - bmsiegel
+    - ARichman555
+    - kollabpr
+    - ndbhat
+    - amibhi
+    - aveega
+    - meghanayendamuri
+    privacy: closed
+    repos:
+      aws-privateca-issuer: maintain
+  milestone-maintainers:
+    description: cert-manager milestone maintainers
+    maintainers:
+    - munnerz
+    - jakexks
+    - wallrj
+    - erikgb
+    - SgtCoDFish
+    - maelvls
+    - ThatsMrTalbot
+    - JoshVanL
+    - inteon
+    members:
+    - hjoshi123
+    privacy: closed
+  trust-manager-maintainers:
+    description: ""
+    maintainers:
+    - erikgb
+    privacy: closed
+    repos:
+      trust-manager: maintain
