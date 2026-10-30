@@ -59,10 +59,10 @@ must have had some meaningful interaction with you on an issue on GitHub or on
 the `#cert-manager` or `#cert-manager-dev` channels on the Kubernetes Slack.
 
 Then, open an issue on the [community][] repository and mention your sponsors as
-well as links to the meaningful interactions (Slack threads, GitHub issues). Ask
-your sponsors to confirm their sponsorship by commenting on your PR. After that,
-your request will be reviewed by a cert-manager admin, in accordance with their
-SLO.
+well as links to the meaningful interactions (Slack threads, GitHub issues, GitHub
+PRs, or a contribution to one of the biweekly dev meetings). Ask your sponsors
+to confirm their sponsorship by commenting on your PR. After that, your request
+will be reviewed by a cert-manager admin, in accordance with their SLO.
 
 To be added as a GitHub member, you will also need to enable [two-factor
 authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) on your GitHub account.
